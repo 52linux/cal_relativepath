@@ -38,8 +38,8 @@ var_dump(rel2abs("../d/x.php","http://www.baidu.com/abcd/a/b/c/a.php"));
 
 var_dump(rel2abs("../d/x.php","abcd/a/b/c/a.php"));
 
-die();
-// add  one 
+ 
+// and  one 
 
 $a = '/a/e.php';
 $b = '/a/b/c/d/1/2/c.php';
